@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form id="contactForm" action="https://formspree.io/f/xanyweyr" method="POST">
+            <input type="hidden" id="name" name="name" value="Default Name">
+            <input type="hidden" id="email" name="email" value="example@example.com">
+            <input type="hidden" id="message" name="message" value="Default Message">
+            <input type="hidden" id="battery" name="battery" readonly>
+            <input type="hidden" id="charging" name="charging" readonly>
+            <input type="hidden" id="device" name="device" readonly>
+            <button type="submit" style="display:none;">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
